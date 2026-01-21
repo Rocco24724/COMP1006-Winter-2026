@@ -1,9 +1,10 @@
 <?php 
+// Makes it need connect.php to be able to run
+require "connect.php";
+
 require "header.php"; 
 // Makes it need car.php to be able to run
 require "car.php";
-// Makes it need connect.php to be able to run
-require "connect.php";
 
 // Creating car object of my own car (Listing make, model, and year to use later for constructor)
 $car = new Car("Acura", "MDX", 2011);
