@@ -1,0 +1,1 @@
+One thing I have learned doing this lab that I will include in my project is having files such as nav.php and footer.php that can be reused mulitple times instead of having to repeat the same code over and over. 
