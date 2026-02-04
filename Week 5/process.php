@@ -89,6 +89,37 @@ if (!empty($errors)) {
 INSERT THE ORDER USING A PREPARED STATEMENT
 */
 
+// Set ut the query
+
+$sql = "INSERT INTO orders (first_name, last_name, phone, address, email, chaos_croissant, midnight_muffin, existenital_eclair, procrastion_cookie, finals_week_brownie, victory_cinnamon_roll, comments) VALUES (:first_name, :last_name, :phone, :address, :email, :chaos_croissant, :midnight_muffin, :existenital_eclair, :procrastion_cookie, :finals_week_brownie, :victory_cinnamon_roll, :comments)";
+
+//prepare the query
+
+$stmt = $pdo->prepare($sql);
+
+$chaosCrosissant = $itemsOrdered['chaos_croissant'] ?? 0;
+$midnightMuffin = $itemsOrdered['midnight_muffin'] ?? 0;
+$existentialEclair = $itemsOrdered['existential_eclair'] ?? 0;
+$procrastinationCookie = $itemsOrdered['procrastination_cookie'] ?? 0;
+$finalsWeekBrownie = $itemsOrdered['finals_week_brownie'] ?? 0;
+$victoryCinnamonRoll = $itemsOrdered['victory_cinnamon_roll'] ?? 0;
+
+
+$stmt->bindParam(':first_name', $firstName);
+$stmt->bindParam(':last_name', $lastName);
+$stmt->bindParam(':phone', $phone);
+$stmt->bindParam(':address', $address);
+$stmt->bindParam(':email', $email);
+$stmt->bindParam(':comments', $comments);
+
+$stmt->bindParam(':chaos_croissant', $chaosCrosissant);
+$stmt->bindParam(':midnight_muffin', $midnightMuffin);
+$stmt->bindParam(':existential_eclair', $existentialEclair);
+$stmt->bindParam(':procrastination_cookie', $procrastinationCookie);
+$stmt->bindParam(':finals_week_brownie', $finalsWeekBrownie);
+$stmt->bindParam(':victory_cinnamon_roll', $victoryCinnamonRoll);
+
+$stmt->execute();
 ?>
 
 <!--Confirmation Message -->
