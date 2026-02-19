@@ -1,0 +1,37 @@
+/* For most of the styles I am using bootstrap styles */
+
+/* Give website light grey background */
+body {
+    background-color: #f4f4f4be;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navbar text */
+.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Add colour of orange to buttons and changes it a bit when hovering it*/
+.btn-primary {
+    background-color: #e87722;
+    border-color: #e87722;
+}
+.btn-primary:hover {
+    background-color: #cf6a1a;
+    border-color: #cf6a1a;
+}
+
+/* Adds drop shadow to player forms */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Changes style of h2 element */
+h2 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #222;
+}

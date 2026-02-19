@@ -1,0 +1,14 @@
+This project was very challenging and was very good at making me use my skills I have learned from not only this class but others such as my CSS/HTML classes and my SQL database class.
+
+-- Success --
+
+Some of the parts I found easy were the SQL, CSS, and HTML since I am also doing those things in other classes so it's easy to trasnlate over using them here. Also doing some of the more basic things that we did in this class such as setting up the includes (header, footer, and connect) was easy because I have done them in all of the labs that have been done
+
+
+-- Challenges --
+
+I did need to learn about all the classes when using boot strap for my styling on a lot of the website. One of the biggest challenges for me was learning about the google capthas and about .js files verifying everything. I have used those captchas all my life basically but have never really thouhgt about how they were devolped and implemented. Using regex to verify some user inputs has been hard for me. I have used regex in some of my other classes but still find them hard to remember how to use them.
+
+-- Next Step --
+
+For the future I would like to make the website look better. I would also like to add more sorting features when looking at the list and more inputs for the database such as height, age, where they are from things like that.
