@@ -1,0 +1,24 @@
+Project Review
+
+- Challenges encountered -
+
+I would say some of the biggest challenges for me in Phase 2 were setting up the account log in part and the saving of that info.
+
+- Successes achieved -
+
+In Phase 2 I would say some of the best successes I did was just getting the entire thing working and I can look at it now proud of what I did.
+
+- Lessons Learned - 
+
+I learned to do a bunch of things during this such as file/image uploading, account log in and log out function, and doing user authentication.
+If I were to redo this assignment knowing what I know now I think I could do it much faster.
+
+- Future Improvements -
+
+I could add about 100 different things to make it more complex in the future with a couple of those things being.
+More info about players, More account options, Also add in other staff of team into tracker such as coachs, etc...
+
+- Note About Hosting -
+
+I went through all the steps in the document "Connecting to the Course LAMP Server" and was able to send my files to my database using filezilla and openVPN.
+But when I go to the Lamp Stack website URL in the excel sheet it says I am forbidden to access that content so I am not sure if it works or not.
